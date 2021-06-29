@@ -234,7 +234,7 @@ async def yplay(_, message: Message):
 @Client.on_message(filters.command(["dplay", f"dplay@{U}"]) & (filters.chat(CHAT) | filters.private))
 async def deezer(_, message):
     if ADMIN_ONLY == "Y":
-        admins=[626664225]
+        admins=[954679995]
         grpadmins=await _.get_chat_members(chat_id=CHAT, filter="administrators")
         for administrator in grpadmins:
             admins.append(administrator.user.id)
