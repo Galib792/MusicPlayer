@@ -61,7 +61,7 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 **/restart** Restarts the Bot.
 
 Join Our Channel @Tips_Tik
-Join Group @Tips_tik_discussion
+Join Our Group @Tips_tik_discussion
 """
 
 
@@ -175,7 +175,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/Tips_Tik'),
-                InlineKeyboardButton('🤖 Support group', url='https://t.me/Tips_Tik_Discussion'),
+                InlineKeyboardButton('📱 Support group', url='https://t.me/Tips_Tik_Discussion'),
             ],
             [
                 InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Muhammedgalib'),
