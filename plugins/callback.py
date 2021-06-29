@@ -59,6 +59,9 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 **/mute**  Mute in VC.
 **/unmute**  Unmute in VC.
 **/restart** Restarts the Bot.
+
+Join Our Channel @Tips_Tik
+Join Group @Tips_tik_discussion
 """
 
 
@@ -171,12 +174,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-                InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+                InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/Tips_Tik'),
+                InlineKeyboardButton('🤖 Support group', url='https://t.me/Tips_Tik_Discussion'),
             ],
             [
-                InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-                InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+                InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Muhammedgalib'),
+                InlineKeyboardButton('🧩 Source', url='https://github.com/eo792/MusicPlayer'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
