@@ -63,6 +63,9 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 **/mute**  Mute in VC.
 **/unmute**  Unmute in VC.
 **/restart** Restarts the Bot.
+
+Join Our Channel @Tips_Tik
+Join Our Group @Tips_tik_discussion
 """
 
 
@@ -72,7 +75,7 @@ async def start(client, message):
     buttons = [
         [
         InlineKeyboardButton('⚙️ Join Update Channel', url='https://t.me/Tips_Tik'),
-        InlineKeyboardButton('📱Support Group', url='https://t.me/Tips_Tik_discussion'),
+        InlineKeyboardButton('📱 Support Group', url='https://t.me/Tips_Tik_discussion'),
     ],
     [
         InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Muhammedgalib'),
@@ -95,7 +98,7 @@ async def show_help(client, message):
     buttons = [
         [
             InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/TTips_Tik'),
-            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/Tips_Tik_discussion'),
+            InlineKeyboardButton('📱 Support Group', url='https://t.me/Tips_Tik_discussion'),
         ],
         [
             InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Muhammedgalib'),
